@@ -66,7 +66,7 @@ module Players
         move=7.to_s
       elsif board.taken?(7) && board.cells[6] == board.cells[2] && !board.taken?(5)
         move=5.to_s
-        
+
       else
         move=rand(1..9).to_s
       end
